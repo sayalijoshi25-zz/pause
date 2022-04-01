@@ -1,8 +1,8 @@
 ---
--- name: pause
-   hosts: localhost
-   tasks:
+- name: pause
+  hosts: localhost
+  tasks:
 
-     - name: A helpful reminder of what to look out for post-update
-       pause:
-         prompt: "Make sure org.foo.FooOverload exception is not present"
+  - name: A helpful reminder of what to look out for post-update
+    pause:
+      prompt: "Make sure org.foo.FooOverload exception is not present"
